@@ -19,7 +19,7 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background-image: url(https://cdn.discordapp.com/attachments/1094366052516900874/1095082554161373295/backgrounde_simple.png);
+    background-image: url(./back_grounde_4.png);
     
     border-radius: 5px;
   }
@@ -36,14 +36,14 @@
     background: #c127cc; 
   }
   
-  * {box-sizing: border-box;}
+
   body {font-family: Verdana, sans-serif;}
   .mySlides {display: none;}
   img {vertical-align: middle;}
   
   /* Slideshow container */
   .slideshow-container {
-    max-width: 1600px;
+    max-width: 1781px;
     position: relative;
     margin: auto;
   }
@@ -106,8 +106,8 @@
  
   .topnav {
     overflow: hidden;
-    position:  -webkit-sticky; /* Safari */
-    position: sticky;
+   
+    
     
     top: 0;;
     margin-top: 14px;
@@ -121,7 +121,7 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 20px 82px;
+    padding: 15px 82px;
     text-decoration: none;
     font-size: 30px;
   }
@@ -240,6 +240,7 @@ padding-top: 10px ;
     border: 0.5px solid rgba(33, 2, 53, 0.967) ;
     border-radius: 3px;
     width: 98%;
+    margin-bottom: 16.5px;
   }
   /* Style the tab buttons */
 .tablink {
@@ -595,3 +596,50 @@ input[type=text-c] {
   }
 }
 
+.dropdown {
+  float:right;
+  overflow: hidden;
+  padding: 13px 70px;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute ;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
