@@ -1,15 +1,15 @@
  
  @font-face {
     font-family: mv boli ;
-    src: url(/MVBOLI.TTF);
+    src: url(./MVBOLI.TTF);
  }   
  @font-face {
     font-family: Kamran;
-    src: url(/SKAMRAN.TTF);
+    src: url(./SKAMRAN.TTF);
     } 
     @font-face {
         font-family: Kamran;
-        src: url(/SKAMRNBD.TTF);
+        src: url(./SKAMRNBD.TTF);
         font-weight: bold;
     }
     /* width */
