@@ -1,15 +1,15 @@
  
  @font-face {
     font-family: mv boli ;
-    src: url(https://cdn.discordapp.com/attachments/1094366052516900874/1095696224675434516/MVBOLI.TTF);
+    src: url(/MVBOLI.TTF);
  }   
  @font-face {
     font-family: Kamran;
-    src: url(https://cdn.discordapp.com/attachments/1094366052516900874/1095690395284946974/SKAMRAN.TTF);
+    src: url(/SKAMRAN.TTF);
     } 
     @font-face {
         font-family: Kamran;
-        src: url(https://cdn.discordapp.com/attachments/1094366052516900874/1095690395666616320/SKAMRNBD.TTF);
+        src: url(/SKAMRNBD.TTF);
         font-weight: bold;
     }
     /* width */
