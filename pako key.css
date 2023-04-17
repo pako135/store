@@ -47,7 +47,8 @@
   .slideshow-container {
     max-width: 1781px;
     position: relative;
-    margin: auto;
+    margin-left:1%;
+    margin-right: 1%;
   }
   
   /* Caption text */
@@ -242,7 +243,7 @@ padding-top: 10px ;
     border: 0.5px solid rgba(33, 2, 53, 0.967) ;
     border-radius: 3px;
     width: 98%;
-    margin-bottom: 16.5px;
+    margin-bottom: 2%;
   }
   /* Style the tab buttons */
 .tablink {
@@ -569,7 +570,7 @@ input[type=text-c] {
 .search-container button {
   float: right;
   padding: 6px 10px;
-  margin-top: 19px;
+  margin-top: 13px;
   margin-right: 16px;
   background: #ddd;
   font-size: 17px;
@@ -582,16 +583,16 @@ input[type=text-c] {
 
 @media screen and (max-width: 600px) {
  .search-container {
-    float: none;
+    margin-top: 2px;
     
   }
   .input[type=text-c], .search-container button {
-    float: none;
+    
     display: block;
     text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
+    
+    
+    
   }
   input[type=text-c] {
     border: 1px solid #ccc;  
@@ -657,4 +658,13 @@ input[type=text-c] {
      border: 1px solid rgb(153, 9, 243);
      box-shadow: 2px slateblue;
      background-color: aliceblue
+}
+
+.img-product {
+  width: 20%;
+ margin-right: 1%; 
+ margin-left: 1%; 
+ border: 2.5px solid rgba(49, 0, 63, 0.507);
+ border-radius: 1px;
+ 
 }
