@@ -112,7 +112,7 @@
     
     
     top: 0;;
-    margin-top: 14px;
+    margin-top: 5px;
     background-color: #190220;
   }
   
@@ -123,7 +123,7 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 15px 82px;
+    padding: 17px 82px;
     text-decoration: none;
     font-size: 30px;
   }
@@ -599,6 +599,7 @@ input[type=text-c] {
 }
 
 .dropdown {
+  font-family: kamran;
   float:right;
   overflow: hidden;
   padding: 13px 70px;
@@ -644,4 +645,16 @@ input[type=text-c] {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.div-b {
+  background-color: #dc94f4;
+    margin-left: 17px;
+    margin-right: 17px;
+    padding-bottom: 16.5px;
+    position: relative;
+     font-family: kamran;
+     font-size: 30px;
+     border: 1px solid rgb(153, 9, 243);
+     box-shadow: 2px slateblue;
+     background-color: aliceblue
 }
